@@ -2,7 +2,7 @@ import { io } from "socket.io-client";
 
 let socket;
 export const init = () => {
-  socket = io("https://chatapp.root.rocknjs.com", {
+  socket = io("http://chatapp.root.rocknjs.com", {
     transports: ["websocket"],
   });
 
